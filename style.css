@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+
+main    {
+    background-color: #7ea99c;
+}
+
+p {
+    padding: 3px;
+    line-height: 23px;
+    text-align: justify;
+}
+header {
+    background-color: #01161e;
+    color: #AEC3B0;
+    padding-top: 10px;
+    height: 100px;
+    text-align: center;
+}
+header p {
+    text-align: center;
+}
+header > h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.navheader {
+    background-color: #124549;
+    padding: 7px;
+}
+.navheader > a {
+    color: #AEC3B0;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.navheader > a:hover {
+    background-color: #01161e;
+}
+
+#img1 {
+    height: 500px;
+    width: 1050px;
+    display: block;
+    margin: auto;
+    padding: 20
+}
+.artigos    {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px;
+    margin-bottom: 30px
+}
+.artigos h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.artigos p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e
+}
+/* algumas id de raças.html estarão aparti dessa mensagem*/
+
+#h2racas {
+    text-align: center;
+    padding: 10px;
+    color: #01161e;;
+
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif
+    
+    
+}
+header {
+    background-color: #01161e;
+    color: #AEC3B0;
+    padding-top: 10px;
+    height: 100px;
+    text-align: center;
+
+}
+header > h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+#navheader {
+    background-color: #124549;
+    padding: 7px;
+}
+#navheader > a {
+    color: #AEC3B0;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+#navheader > a:hover {
+    background-color: #01161e;
+}
+
+.introducao {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px
+}
+.introducao h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.introducao p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e; 
+}
+.introducao a {
+    text-decoration: none;
+    color: #0e1735
+}
+.introducao a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+#img1 {
+    height: 500px;
+    width: 1050px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 10px;
+
+}
+.iconerede {
+    height: 35px;
+    width: 35px;
+    padding-left: 35px;
+    padding-bottom: 8px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+/* Raças*/
+#introracas {
+    text-align: center;
+    min-width: 300px;
+    max-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+}
+#introracas h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px
+}
+#introracas p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;  
+}
+#introracas a {
+    text-decoration: none;
+    color: #0e1735;
+}
+#introracas a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+.botaotop {
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0.06,);
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+.botaotop.active {
+   opacity: 1;
+   visibility: visible
+}
+.botaotop img {
+    width: 100%;
+    transform: rotate(180deg)
+}
+
+.articleracasR {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.articleracasR h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.articleracasR p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;
+}
+.articleracasR a {
+    text-decoration: none;
+    color: #0e1735;
+}
+.articleracasR a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+.articleracasR img {
+    height: 300px;
+    width: 400px;
+    float: right;
+    padding: 15px;
+    border: #01161e;
+}
+
+.articleracasL  {
+    text-align: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.articleracasL h2 {
+    color: #01161e;
+    text-align: center;
+    padding: 5px;
+}
+.articleracasL p {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;
+}
+.articleracasL a {
+    font-size: 18px;
+    text-indent: 35px;
+    color: #01161e;
+}
+.articleracasL a:hover {
+    color: #01161e;
+    font-weight: bolder;
+}
+.articleracasL img {
+    height: 300px;
+    width: 400px;
+    float: left;
+    padding: 15px;
+    border: #01161e;
+}
+
+.imagemfundo {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 900px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.lista {
+    padding-left: 80px;
+    text-align: left;
+}
+.lista p {
+    padding-left: -80px;
+    line-height: 18px;
+    font-size: 16px;
+    font-style: italic;
+}
+footer {
+    background-color: #01161e;
+    color: #AEC3B0;
+    padding-bottom: 5px;
+    height: 40px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+
+/* linha do tempo */
+
+#tempo {
+    width: 1000px;
+    height: 600px;
+}
+
+#artigo-tempo {
+    text-align: center;
+    max-width: 700px;
+    min-width: 100%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 0px 7px #00000071;
+    border-radius: 10px;
+    margin-bottom: 30px
+}
